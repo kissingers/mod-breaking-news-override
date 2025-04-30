@@ -5,50 +5,50 @@
 [worldserver]
 
 ########################################
-# Breaking News configuration
+# 突发新闻配置
 ########################################
 #
 #    BreakingNews.Enable
-#        Description: Enable the Breaking News message on the character screen.
-#        Default:     0 - Disabled
-#                     1 - Enabled
+#        描述: 在角色选择界面启用突发新闻消息。
+#        默认值:     0 - 禁用
+#                    1 - 启用
 #
 
 BreakingNews.Enable = 0
 
 #
 #    BreakingNews.Title
-#        Description: The title that shows up above the breaking news body.
-#        Default:     "Breaking News"
+#        描述: 显示在突发新闻正文上方的标题。
+#        默认值:     "服务器公告"
 #
 
-BreakingNews.Title = "Breaking News"
+BreakingNews.Title = "服务器公告"
 
 #
 #    BreakingNews.HtmlPath
-#        Description: The path to the html file to show as the breaking news body.
-#        Note: Can be absolute or relative.
-#        Default:     "./breakingnews.html"
+#        描述: 要显示为突发新闻正文的HTML文件路径。
+#        注意: 可以是绝对路径或相对路径。
+#        默认值:     "./breakingnews.html"
 #
 
 BreakingNews.HtmlPath = "./breakingnews.html"
 
 #
 #    BreakingNews.Cache
-#        Description: Caches the breaking news on startup.
-#        Note: Setting this to 0 will pull the updated news from file every login.
-#                     0 - Disabled
-#        Default:     1 - Enabled
+#        描述: 在启动时缓存突发新闻。
+#        注意: 将此设置为0将在每次登录时从文件中提取更新的新闻。
+#                    0 - 禁用
+#        默认值:     1 - 启用
 #
 
 BreakingNews.Cache = 1
 
 #
 #    BreakingNews.Verbose
-#        Description: Enables verbose logs for debugging.
-#        Note: Don't leave this on in production.
-#        Default:     0 - Disabled
-#                     1 - Enabled
+#        描述: 启用详细日志以进行调试。
+#        注意: 不要在生产环境中保持此设置开启。
+#        默认值:     0 - 禁用
+#                    1 - 启用
 #
 
 BreakingNews.Verbose = 0
